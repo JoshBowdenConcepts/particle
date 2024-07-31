@@ -1,2 +1,2 @@
-export * from './themes/Particle'
+export { particle } from './themes/Particle'
 
