@@ -1,5 +1,11 @@
 # particle
 
+## 0.0.4
+
+### Patch Changes
+
+- 737965c: Fixed Registry URL
+
 ## 0.0.3
 
 ### Patch Changes
