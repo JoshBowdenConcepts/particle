@@ -1,6 +1,6 @@
 {
   "name": "particle",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Josh Bowden",
   "homepage": "https://github.com/JoshBowdenConcepts/particle#readme",
   "license": "MIT",
@@ -12,7 +12,7 @@
     "start": "npx ts-node index.ts",
     "postinstall": "pnpm build",
     "build": "pnpm build:theme",
-	"changeset": "pnpm changeset"
+    "changeset": "pnpm changeset"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.7",
