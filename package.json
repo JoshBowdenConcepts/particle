@@ -5,13 +5,17 @@
   "homepage": "https://github.com/JoshBowdenConcepts/particle#readme",
   "license": "MIT",
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "build:theme": "rm -rf dist && pnpm build:css && tsc && cp ./css/tokens.css tokens.css",
+    "build:theme": "rm -rf dist && pnpm build:css && tsc && cp ./css/tokens.css ./dist/tokens.css",
     "build:css": "npx ts-node generators/cssGenerator.ts",
     "start": "npx ts-node index.ts",
-    "postinstall": "pnpm build"
+    "postinstall": "pnpm build",
+    "build": "pnpm build:theme",
+	"changeset": "pnpm changeset"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.7",
     "@types/node": "^20.12.11",
     "ts-node": "^10.9.1",
     "typescript": "^5.3.3"

@@ -8,8 +8,7 @@
 		"sourceMap": false, // Can be toggled when developing
 		"types": [
 			"node"
-		],
-		"noEmit": true
+		]
 	},
 	"include": ["index.ts"],
 	"exclude": ["dist", "node_modules", "**/*.spec.ts", "**/*.spec.tsx"]
