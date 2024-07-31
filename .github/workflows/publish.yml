@@ -17,6 +17,7 @@ jobs:
         with:
           node-version: 18.x
           cache: "pnpm"
+          registry-url: "https://registry.npmjs.org"
       - name: publish
         run: npm publish --access public
         env:
